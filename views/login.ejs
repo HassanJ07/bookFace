@@ -1,0 +1,103 @@
+<div class="title">
+  <h1>BOOK<span>FACE</span></h1>
+</div>
+<div class="title">
+  <h2> Login </h2>
+</div>
+
+<div class="box"> 
+<form action="/login" method="POST">
+<div>
+<label for="email">Email</label>
+<input
+type="email"
+name="email"
+placeholder="Enter Email"
+/>
+</div>
+<div>
+    <label for="password">Password</label>
+    <input
+      type="password"
+      name="password"
+      placeholder="Enter Password"
+    />
+  
+</div>
+<button type="submit" class="btn">Login</button>
+</form></div>
+<p> New here ?<a href="/register">Register</a></p>
+<style>
+
+body{
+   background-image: url("1000_F_349954362_6uAf1A4T1NnkqhtLzVWNse3d8eBPFfqC.jpg");
+    
+    background-size: cover;
+    background-color: #a4eaea;
+    height: 100%;
+    color:rgb(1, 12, 21);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  .box{
+    background: #0a0909;
+    padding: 0.6000000000000014em;
+    color:white;
+    border-radius: 30px;
+    margin: 1em;
+    opacity: 0.7;
+    text-align: center;
+    }
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 15rem;
+    text-align: left;
+    
+}
+input {
+  display: inline-block;
+  background:transparent;
+  border: none;
+  outline:none;
+  border-bottom: 2px solid  rgb(20, 225, 218);
+}
+  
+
+button  {
+  border-radius: 50px;
+  margin-top: 10px;
+  background-color: #7100e9;
+  background-image: linear-gradient(90deg, #e5e9eb 0%, #181a1a 100%);
+  color: azure;
+  font-size: 10px;
+  padding: 0.4em;
+  cursor:pointer;
+}
+a{
+  text-decoration: none;
+  color: rgb(220, 22, 22);
+}
+span{
+  color: rgb(22, 45, 220);
+   
+}
+.title{
+  background: #0a0909;
+    padding: 0.6000000000000014em;
+    color:white;
+    border-radius: 30px;
+    margin: 1em;
+    opacity: 0.7;
+    text-align: center;
+}
+h2{
+  color: #008a8a;
+}
+
+
+</style>
